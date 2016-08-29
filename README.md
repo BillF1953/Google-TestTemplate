@@ -1,7 +1,7 @@
 #Google Test Template for CLion
 
 
-Most (All) from git@github.com:snikulov/google-test-examples.git. 
+Most (All) from https://github.com/snikulov/google-test-examples. 
 Two Changes to compile on CLion using Cygwin:
 
 Main Cmake: add_definitions(-std=gnu++0x) to set compiler to GNU.
