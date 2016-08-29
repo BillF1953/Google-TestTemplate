@@ -1,6 +1,9 @@
-# Google-TestTemplate
-Template for CLion
-From this github,   git@github.com:snikulov/google-test-examples.git
-Two Changes
-add_definitions(-std=gnu++0x) in main cmake
-Install Download is enabled in gtest cmake
+#Google Test Template for CLion
+
+
+Most (All) from git@github.com:snikulov/google-test-examples.git. 
+Two Changes to compile on CLion using Cygwin:
+
+Main Cmake: add_definitions(-std=gnu++0x) to set compiler to GNU.
+
+Gtest Cmake: Install Download is enabled. CLion requires a physical copy of gtest in project directory. 
